@@ -19,7 +19,7 @@ const Reservation = () => {
     
     try {
       const { data } = await axios.post(
-        "https://https://cn-18-rest-1.onrender.com/api/v1/reservation/send",
+        "https://https://https://cn-18-rest-1.onrender.com/api/v1/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
